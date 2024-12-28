@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astral MC - O Melhor Servidor BedWars</title>
+    <style>
+        /* Estilos Globais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            background: #0d1117;
+            color: #c9d1d9;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        nav {
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+            padding: 5px 15px;
+            border-radius: 5px;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        nav a:hover {
+            background: rgba(255, 255, 255, 0.2);
+            transform: scale(1.1);
+        }
+
+        /* Banner */
+        .banner {
+            background: url('https://source.unsplash.com/1600x900/?minecraft,bedwars') no-repeat center center/cover;
+            height: 60vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: #fff;
+            text-shadow: 2px 2px 5px #000;
+        }
+
+        .banner h2 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .banner p {
+            font-size: 1.2em;
+        }
+
+        /* Botões */
+        .cta-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px 30px;
+            font-size: 1.2em;
+            text-transform: uppercase;
+            background: #ff7a7a;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s, transform 0.2s;
+        }
+
+        .cta-button:hover {
+            background: #fcb045;
+            transform: scale(1.05);
+        }
+
+        /* Seções */
+        section {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        section:nth-child(even) {
+            background: #161b22;
+        }
+
+        section h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #00c6ff;
+        }
+
+        section p, ul {
+            font-size: 1.1em;
+            max-width: 800px;
+            margin: 0 auto;
+            line-height: 1.8;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin: 10px 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        ul li::before {
+            content: "⭐";
+            color: #00c6ff;
+            margin-right: 10px;
+        }
+
+        /* Rodapé */
+        footer {
+            background: #0d1117;
+            color: #8b949e;
+            padding: 20px;
+            text-align: center;
+            font-size: 0.9em;
+        }
+
+        footer .social-icons {
+            margin: 20px 0;
+        }
+
+        footer .social-icons a {
+            color: #8b949e;
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.5em;
+            transition: color 0.3s;
+        }
+
+        footer .social-icons a:hover {
+            color: #00c6ff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Astral MC</h1>
+        <nav>
+            <a href="#sobre">Sobre</a>
+            <a href="#comandos">Comandos</a>
+            <a href="#dicas">Dicas</a>
+            <a href="#contato">Contato</a>
+            <a href="loja.html" class="cta-button">Loja</a>
+        </nav>
+    </header>
+
+    <div class="banner">
+        <div>
+            <h2>Bem-vindo ao Astral MC!</h2>
+            <p>Experimente a melhor experiência de BedWars no Astral MC.</p>
+        </div>
+    </div>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre o Astral MC</h2>
+            <p>O Astral MC é o lugar perfeito para jogadores apaixonados por BedWars. Nossos mapas são incríveis, a comunidade é ativa e as competições são emocionantes.</p>
+            <button class="cta-button">Jogar Agora</button>
+        </section>
+
+        <section id="comandos">
+            <h2>Comandos Úteis</h2>
+            <ul>
+                <li><b>/join</b> - Entre no jogo rapidamente.</li>
+                <li><b>/shop</b> - Acesse a loja dentro do jogo.</li>
+                <li><b>/stats</b> - Veja suas estatísticas.</li>
+                <li><b>/team</b> - Escolha sua equipe favorita.</li>
+            </ul>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas para Dominar o BedWars</h2>
+            <p>Aprimore suas habilidades com estas dicas:</p>
+            <ul>
+                <li>Proteja sua cama antes de explorar.</li>
+                <li>Controle os geradores de recursos na ilha central.</li>
+                <li>Compre itens estratégicos na loja.</li>
+                <li>Comunique-se com seus colegas de equipe para criar estratégias.</li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Entre em contato conosco:</p>
+            <p>Email: suporte@astralmc.com</p>
+            <p>Discord: <a href="https://discord.gg/seulink" target="_blank">discord.gg/seulink</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Astral MC - Todos os direitos reservados.</p>
+        <div class="social-icons">
+            <a href="https://facebook.com" target="_blank">🌐</a>
+            <a href="https://twitter.com" target="_blank">🐦</a>
+            <a href="https://instagram.com" target="_blank">📸</a>
+        </div>
+    </footer>
+</body>
+</html>
